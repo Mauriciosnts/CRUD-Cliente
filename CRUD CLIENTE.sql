@@ -2,16 +2,16 @@ CREATE DATABASE projeto1;
 USE projeto1;
 
 CREATE TABLE clientes(
-	id 			INT AUTO_INCREMENT,
+    id 			INT AUTO_INCREMENT,
     nome 		VARCHAR(100) 	NOT NULL,
-    telefone 	VARCHAR(15) 	NOT NULL,
+    telefone      	VARCHAR(15) 	NOT NULL,
     rg			VARCHAR(12) 	NOT NULL,
     cpf			VARCHAR(14) 	NOT NULL,
     email		VARCHAR(100)	NOT NULL,
-    endereco    VARCHAR(100)	NOT NULL,
-    cidade		VARCHAR(50)		NOT NULL,
-    uf    		VARCHAR(2)		NOT NULL,
-    cep			VARCHAR(9)		NOT NULL,
+    endereco            VARCHAR(100)	NOT NULL,
+    cidade		VARCHAR(50)	NOT NULL,
+    uf    		VARCHAR(2)	NOT NULL,
+    cep			VARCHAR(11)	NOT NULL,
     PRIMARY KEY(id)
 );
 
